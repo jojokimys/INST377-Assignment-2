@@ -1,7 +1,7 @@
 const suggestions = [];
 
 fetch('/api', {
-    method: 'GET',
+    method: 'POST',
     headers: {
         'Content-Type': 'application/json'
     }, })
