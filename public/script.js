@@ -1,13 +1,13 @@
 const suggestions = [];
 
-// await fetch('/api', {
-//     method: 'POST',
-//     headers: {
-//         'Content-Type': 'application/json'
-//     }, })
-//     .then(data => data.json())
-//     .then(data => suggestions.push(...data))
-//     console.log(suggestions)
+fetch('/api', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    }, })
+    .then(data => data.json())
+    .then(data => suggestions.push(...data))
+    console.log(suggestions)
 
 function findMatches(wordsTomatch, restaurants) {
     return restaurants.filter(cat => {
