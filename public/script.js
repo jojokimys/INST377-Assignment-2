@@ -1,6 +1,6 @@
 const suggestions = [];
 
-fetch('/api', {
+await fetch('/api', {
     method: 'POST',
     headers: {
         'Content-Type': 'application/json'

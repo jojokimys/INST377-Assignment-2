@@ -23,7 +23,6 @@ app.use((req, res, next) => {
 app.route('/api')
   .get((req, res) => {
     console.log('GET request detected');
-    
   })
   .post(async (req, res) => {
     console.log('POST request detected');
